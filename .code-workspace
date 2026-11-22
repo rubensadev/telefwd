@@ -1,0 +1,8 @@
+{
+  "folders": [
+    { "path": "telewd" }
+  ],
+  "settings": {
+    "python.pythonPath": "/usr/bin/python3"
+  }
+}

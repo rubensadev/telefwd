@@ -1,0 +1,15 @@
+{
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "python.terminal.activateEnvironment": true,
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}/telefwd"
+    ],
+    "editor.formatOnSave": true,
+    "[python]": {
+        "editor.defaultFormatter": "ruff",
+        "editor.formatOnSave": true,
+        "debug.saveBeforeStart": "allEditorsInActiveGroup"
+    },
+    "debugpy.showPythonInlineValues": true
+}

@@ -1,0 +1,17 @@
+bridges:
+  - source_name: divteam-ocio
+    definition: divteam-ocio
+    telegram_group_id: -1004459747052 # Replace with the Telegram group ID.
+    irc_channel: "#divteam"
+  - source_name: divteam-cultura
+    definition: divteam-cultura
+    telegram_group_id: -1004380850428 # Replace with the Telegram group ID.
+    irc_channel: "#divteam"
+  - source_name: torrentland
+    definition: torrentland
+    telegram_group_id: -1001203629747 # Replace with the Telegram group ID.
+    irc_channel: "#torrentland"
+  - source_name: nobs
+    definition: nobs
+    telegram_group_id: -1003823044570 # Replace with the Telegram group ID.
+    irc_channel: "#nobs"
