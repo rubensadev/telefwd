@@ -1,0 +1,6 @@
+parser:
+  movie_pattern: '(?im)^📺\s*Pel[ií]culas\b'
+  series_pattern: '(?im)^📺\s*Series\b'
+  release_pattern: '(?m)^([^\r\n]+)'
+  size_pattern: '(?im)^💾\s*([0-9][0-9.,]*\s*(?:GiB|GB|MB|KB|B))'
+  year_pattern: '\b((?:19|20)\d{2})\b'

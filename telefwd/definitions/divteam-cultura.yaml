@@ -1,0 +1,8 @@
+parser:
+  movie_pattern: '(?im)NUEVA PEL[IÍ]CULA|Categor[ií]a:\s*Pel[ií]culas?\b'
+  series_pattern: '(?im)NUEVA SERIE|Categor[ií]a:\s*(?:Series?|Pack Series)\b'
+  release_pattern: '(?im)^(?:🎬\s*(?:\*\*)?Título:(?:\*\*)?\s*|📚\s*)(.+?)\s*$'
+  size_pattern: '(?im)(?:Tamaño|Tamano):\s*([0-9][0-9.,]*\s*(?:GiB|GB|MB|KB|B))'
+  year_pattern: '(?im)(?:\*\*)?Año:(?:\*\*)?\s*_*((?:19|20)\d{2})(?=\W|_|$)'
+  audio_pattern: '(?im)^🔊\s*Audio:\s*(.+?)\s*$'
+  subtitles_pattern: '(?im)^💬\s*Subs:\s*(.+?)\s*$'
